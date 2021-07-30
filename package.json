@@ -1,0 +1,31 @@
+{
+  "name": "puppies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": 
+  "node-sass --include-path scss scss/styles.scss css/styles.css",
+  "watch-css": "nodemon -e scss -x \"npm run build-css\""
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CamilaIanni/Puppies.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CamilaIanni/Puppies/issues"
+  },
+  "homepage": "https://github.com/CamilaIanni/Puppies#readme",
+  "dependencies": {
+    "sass": "^1.36.0"
+  },
+  
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.12"
+  }
+}
